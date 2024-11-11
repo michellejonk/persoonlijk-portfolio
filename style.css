@@ -45,14 +45,16 @@ body {
     display: flex;
     align-items: end;
     width: 100%;
+    color: rgb(24, 33, 52);
+    text-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
 }
 
 #top div button {
     padding: 1%;
-    border: 3px solid white;
+    border: 3px solid blue ;
     background: none;
     border-radius: 8px;
-    color: white;
+    color: blue;
     margin-left: 4%;
     font-size:x-large;
     transition: 2s;
