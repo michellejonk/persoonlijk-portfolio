@@ -9,8 +9,6 @@ body {
     justify-content: center;
     flex-direction: row;
     background-color: #ffffff;
-    border-bottom: 4px solid rgb(59, 59, 59);
-    box-shadow: 0px 0px 20px black ;
     z-index: 1;
     color: rgb(24, 33, 52);
 }
@@ -26,21 +24,27 @@ body {
 
 
 #top {
-    background-image: linear-gradient(to right, rgb(116, 116, 116) , rgb(0, 0, 0));
     width: 100%;
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     font-size: x-large;
     border-bottom: 2px solid rgb(24, 33, 52);
+    gap: 30%;
+}
+
+#top div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #top p,
 #top h1 {
     display: flex;
     align-items: end;
-    margin-left: 4%;
-    width: 80%;
+    width: 100%;
 }
 
 #top div button {
@@ -52,6 +56,7 @@ body {
     margin-left: 4%;
     font-size:x-large;
     transition: 2s;
+    width: 30%;
 }
 
 #top div button:hover {
@@ -59,10 +64,20 @@ body {
     transition: 2s;
 }
 
-#top img {
-    width: 400px;
+.topimg img {
+    display: flex;
+    justify-content: end;
+    width: 300px;
     border-radius: 50%;
-    margin-bottom: 2%;
+    margin-bottom: 15%;
+    background-color: black;
+    border: 8px solid rgb(24, 33, 52);
+    box-shadow: 0 0 20px 0 rgb(0, 81, 255),inset 0 0 0px 0 rgb(0, 39, 122);
+}
+
+.topimg {
+    display: flex;
+    justify-content: end;
 }
 
 #aboutme {
