@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-bottom: 4px solid rgb(59, 59, 59);
+    box-shadow: 0px 0px 20px black ;
+    z-index: 1;
+    color: rgb(24, 33, 52);
+}
+
+#navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+
+#top {
+    background-image: linear-gradient(to right, rgb(116, 116, 116) , rgb(0, 0, 0));
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    border-bottom: 2px solid rgb(24, 33, 52);
+}
+
+#top p,
+#top h1 {
+    display: flex;
+    align-items: end;
+    margin-left: 4%;
+    width: 80%;
+}
+
+#top div button {
+    padding: 1%;
+    border: 3px solid white;
+    background: none;
+    border-radius: 8px;
+    color: white;
+    margin-left: 4%;
+    font-size:x-large;
+    transition: 2s;
+}
+
+#top div button:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+#top img {
+    width: 400px;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid rgb(24, 33, 52);
+}
+
+#aboutme h1,
+#aboutme p {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    color: rgb(24, 33, 52);
+}
+
+#timelineh1 {
+    margin-top: 4%;
+    color: rgb(24, 33, 52);
+}
+
+#timeline h1,
+#timeline p{
+    text-align: center;
+}
+
+.formating {
+    margin-top: 4% ;
+}
+
+.stippellijn {
+    position: absolute;
+    left: 50%;
+    height: 1200px;
+    border-right: 3px dotted rgb(24, 33, 52);
+}
+
+.padel {
+    border: 4px solid rgb(24, 33, 52);
+    color: rgb(24, 33, 52);
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+.mbo {
+    background-color:rgb(24, 33, 52);
+    color: white;
+    width: 400px;
+    position: absolute;
+    right: 49.7%;
+    top: 140%;
+    border-radius: 8px;
+    padding: 0.5%; 
+}
+
+.cambridge {
+    background-color:rgb(24, 33, 52);
+    color: white;
+    width: 400px;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+.newyork {
+    border: 4px solid  rgb(24, 33, 52);
+    color: rgb(24, 33, 52);
+    width: 400px;
+    position: absolute;
+    right: 49.7%;
+    top: 180%;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+.dirk {
+    border: 4px solid  rgb(24, 33, 52);
+    color: rgb(24, 33, 52);
+    width: 510px;
+    position: absolute;
+    left: 50%;
+    top: 204%;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+.zwembad {
+    border: 4px solid  rgb(24, 33, 52);
+    color: rgb(24, 33, 52);
+    width: 510px;
+    position: absolute;
+    right: 49.7%;
+    top: 225%;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+.middelbare {
+    background-color:rgb(24, 33, 52);
+    color: white;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 250%;
+    border-radius: 8px;
+    padding: 0.5%;
+}
+
+
