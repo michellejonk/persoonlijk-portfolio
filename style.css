@@ -30,8 +30,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     font-size: x-large;
-    border-bottom: 2px solid rgb(24, 33, 52);
-    gap: 30%;
+    border-bottom: 0px solid rgb(24, 33, 52);
+    gap: %;
 }
 
 #top div:first-child {
@@ -51,10 +51,10 @@ body {
 
 #top div button {
     padding: 1%;
-    border: 3px solid blue ;
-    background: none;
+    border: px solid blue ;
+    background: rgb(24, 33, 52);
     border-radius: 8px;
-    color: blue;
+    color: white;
     margin-left: 4%;
     font-size:x-large;
     transition: 2s;
@@ -102,7 +102,7 @@ body {
 }
 
 #contact {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(24, 33, 52);
     padding-top: 3%;
     border-bottom: 3px solid rgb(24, 33, 52);
     padding-bottom: 3%;
