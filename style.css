@@ -106,7 +106,7 @@ body {
 .topimg img {
     display: flex;
     justify-content: end;
-    width: 300px;
+    width: 500px;
     border-radius: 50%;
     margin-top: 15%;
     margin-bottom: 15%;
@@ -118,7 +118,7 @@ body {
 .topimg {
     display: flex;
     height: 100%;
-    margin-bottom: 55%;
+    margin-bottom: 35%;
 }
 
 #aboutme {
