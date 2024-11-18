@@ -31,7 +31,6 @@ body {
     justify-content: space-around;
     font-size: x-large;
     border-bottom: 0px solid rgb(24, 33, 52);
-    gap: %;
 }
 
 #top div:first-child {
@@ -46,7 +45,7 @@ body {
     align-items: end;
     width: 100%;
     color: rgb(24, 33, 52);
-    text-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
+    text-shadow: 0 0 3px white, 0 0 5px rgb(0, 81, 255), 0 0 2px rgb(0, 81, 255), 0 0 1px rgb(0, 81, 255), 0 0 1px rgb(0, 81, 255), 0 0 2px rgb(0, 81, 255), 0 0 20px rgb(154, 186, 255);
 }
 
 #top div button {
