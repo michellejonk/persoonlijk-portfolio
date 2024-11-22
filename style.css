@@ -10,13 +10,13 @@ body {
     flex-direction: row;
     background-color: #ffffff;
     z-index: 1;
-    color: black;
+    color: white;
     background-color: transparent;
 }
 
 #navbar a {
     text-decoration: none;
-    color: black;
+    color:white;
 }
 
 #navbar p {
