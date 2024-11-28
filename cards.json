@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Project: Bedrijfskantine",
+        "image": "img/first project front.jpg",
+        "carouselImages": [
+            "img/ba.jpg",
+            "img/first project front.jpg",
+            "img/moodbord.jpg"
+        ],
+        "description": "Click here to add details about Project 1."
+    },
+    {
+        "id": 2,
+        "title": "Project 2",
+        "image": "project2-front.jpg",
+        "carouselImages": [
+            "project2-img1.jpg",
+            "project2-img2.jpg",
+            "project2-img3.jpg"
+        ],
+        "description": "Click here to add details about Project 2."
+    },
+    {
+        "id": 3,
+        "title": "Project 3",
+        "image": "project3-front.jpg",
+        "carouselImages": [
+            "project3-img1.jpg",
+            "project3-img2.jpg",
+            "project3-img3.jpg"
+        ],
+        "description": "Click here to add details about Project 3."
+    },
+    {
+        "id": 4,
+        "title": "Project 4",
+        "image": "project4-front.jpg",
+        "carouselImages": [
+            "project4-img1.jpg",
+            "project4-img2.jpg",
+            "project4-img3.jpg"
+        ],
+        "description": "Click here to add details about Project 4."
+    },
+    {
+        "id": 5,
+        "title": "Project 5",
+        "image": "project5-front.jpg",
+        "carouselImages": [
+            "project5-img1.jpg",
+            "project5-img2.jpg",
+            "project5-img3.jpg"
+        ],
+        "description": "Click here to add details about Project 5."
+    },
+    {
+        "id": 6,
+        "title": "Project 6",
+        "image": "project6-front.jpg",
+        "carouselImages": [
+            "project6-img1.jpg",
+            "project6-img2.jpg",
+            "project6-img3.jpg"
+        ],
+        "description": "Click here to add details about Project 6."
+    }
+]

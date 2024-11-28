@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(228, 228, 228);
+
 }
 
 #navbar {
@@ -168,6 +170,90 @@ img[alt="time"] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#projecten {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+#projecten h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#projecten div img {
+    display: flex;
+    position: absolute;
+    width: 550px;
+    border-radius: 8px;
+    z-index: -1;
+    object-fit: fill;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+}
+
+#carousel button {
+    background-color: white;
+    border: 3px solid black;
+    width: 100px;
+    transition: 1s;
+}
+
+#carousel button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#projecten div h1 {
+    display: flex;
+    color: white;
+    align-items: end;
+    justify-content: flex-start;
+    height: 210px;
+    margin-left: 20px;
+}
+
+#back-button {
+    border: solid 3px red;
+    border-radius: 8px;
+    height: 50px;
+    width: 100px;
+    transition: 1s;
+    background-color: transparent;
+}
+
+#back-button:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#info-section {
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
 }
 
 #footer a {
