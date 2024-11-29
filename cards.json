@@ -8,7 +8,8 @@
             "img/first project front.jpg",
             "img/moodbord.jpg"
         ],
-        "description": "Click here to add details about Project 1."
+        "description": "Details about the Bedrijfskantine project, including goals, approach, and outcomes.",
+        "link": "bedrijfsproject.html"
     },
     {
         "id": 2,
@@ -19,12 +20,13 @@
             "img/project2.2.jpg",
             "img/project2.3.png"
         ],
-        "description": "Click here to add details about Project 2."
+        "description": "A project focused on Björn Borg renders, exploring creative and visual design.",
+        "link": "bjornborg.html"
     },
     {
         "id": 3,
-        "title": "project: counter display Guess",
-        "image": "img/project3.8.jpg",
+        "title": "Project: Counter Display Guess",
+        "image": "img/project3.1.jpg",
         "carouselImages": [
             "img/project3.1.jpg",
             "img/project3.3.jpg",
@@ -35,7 +37,8 @@
             "img/project3.7.jpg",
             "img/project3.8.jpg"
         ],
-        "description": "Click here to add details about Project 3."
+        "description": "Details about the Guess counter display project, including design and implementation.",
+        "link": "guess-counter-display.html"
     },
     {
         "id": 4,
@@ -44,7 +47,8 @@
         "carouselImages": [
             "img/raverunfilmpje.mp4"
         ],
-        "description": "Click here to add details about Project 4."
+        "description": "Explore the dynamic and colorful Rave Run project.",
+        "link": "rave-run.html"
     },
     {
         "id": 5,
@@ -55,7 +59,8 @@
             "project5-img2.jpg",
             "project5-img3.jpg"
         ],
-        "description": "Click here to add details about Project 5."
+        "description": "Details about Project 5.",
+        "link": "project5.html"
     },
     {
         "id": 6,
@@ -66,6 +71,7 @@
             "project6-img2.jpg",
             "project6-img3.jpg"
         ],
-        "description": "Click here to add details about Project 6."
+        "description": "Details about Project 6.",
+        "link": "project6.html"
     }
 ]

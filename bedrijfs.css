@@ -84,3 +84,35 @@ body {
     display: flex;
     justify-content: center;
 }
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#back-button {
+    border: solid 3px red;
+    border-radius: 8px;
+    height: 50px;
+    width: 100px;
+    transition: 1s;
+    background-color: transparent;
+}
+
+#back-button:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#nextbutton {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    
+}
