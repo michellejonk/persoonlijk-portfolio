@@ -38,26 +38,58 @@ document.addEventListener("DOMContentLoaded", () => {
                         </p>
                         <div id="carousel" style="margin: 20px 0; text-align: center;">
                             <button id="prev-btn" style="margin-right: 10px;">Previous</button>
-                            <img src="${card.carouselImages[0]}" alt="Project Image 1" style=" object-fit: cover;" />
                             <button id="next-btn" style="margin-left: 10px;">Next</button>
                         </div>
                     `;
 
                     // Set up carousel functionality
                     let currentImageIndex = 0;
-                    const imgElement = infoSection.querySelector("#carousel img");
+                    const carouselDiv = infoSection.querySelector("#carousel");
                     const prevBtn = infoSection.querySelector("#prev-btn");
                     const nextBtn = infoSection.querySelector("#next-btn");
+
+                    const updateMedia = () => {
+                        // Remove the current media if it exists
+                        const existingMedia = carouselDiv.querySelector("#carousel-media");
+                        if (existingMedia) {
+                            existingMedia.remove();
+                        }
+
+                        const currentMedia = card.carouselImages[currentImageIndex];
+                        const isVideo = currentMedia.endsWith(".mp4");
+
+                        // Create the new media element
+                        const newElement = document.createElement(isVideo ? "video" : "img");
+                        newElement.id = "carousel-media";
+                        newElement.style.width = "1000px";
+                        newElement.style.height = "400px";
+
+                        if (isVideo) {
+                            newElement.src = currentMedia;
+                            newElement.autoplay = true;
+                            newElement.loop = true;
+                            newElement.controls = true;
+                        } else {
+                            newElement.src = currentMedia;
+                            newElement.alt = `Project Media ${currentImageIndex + 1}`;
+                        }
+
+                        // Insert the new media element between the Previous and Next buttons
+                        carouselDiv.insertBefore(newElement, nextBtn);
+                    };
+
+                    // Initialize the first media
+                    updateMedia();
 
                     prevBtn.addEventListener("click", () => {
                         currentImageIndex =
                             (currentImageIndex - 1 + card.carouselImages.length) % card.carouselImages.length;
-                        imgElement.src = card.carouselImages[currentImageIndex];
+                        updateMedia();
                     });
 
                     nextBtn.addEventListener("click", () => {
                         currentImageIndex = (currentImageIndex + 1) % card.carouselImages.length;
-                        imgElement.src = card.carouselImages[currentImageIndex];
+                        updateMedia();
                     });
 
                     // Back button functionality

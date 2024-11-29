@@ -12,34 +12,37 @@
     },
     {
         "id": 2,
-        "title": "Project 2",
-        "image": "project2-front.jpg",
+        "title": "Renders Björn Borg",
+        "image": "img/bjornborgfront.jpg",
         "carouselImages": [
-            "project2-img1.jpg",
-            "project2-img2.jpg",
-            "project2-img3.jpg"
+            "img/project2.1.png",
+            "img/project2.2.jpg",
+            "img/project2.3.png"
         ],
         "description": "Click here to add details about Project 2."
     },
     {
         "id": 3,
-        "title": "Project 3",
-        "image": "project3-front.jpg",
+        "title": "project: counter display Guess",
+        "image": "img/project3.8.jpg",
         "carouselImages": [
-            "project3-img1.jpg",
-            "project3-img2.jpg",
-            "project3-img3.jpg"
+            "img/project3.1.jpg",
+            "img/project3.3.jpg",
+            "img/project3.4.jpg",
+            "img/project3.2.jpg",
+            "img/project3.5.jpg",
+            "img/project3.6.jpg",
+            "img/project3.7.jpg",
+            "img/project3.8.jpg"
         ],
         "description": "Click here to add details about Project 3."
     },
     {
         "id": 4,
-        "title": "Project 4",
-        "image": "project4-front.jpg",
+        "title": "Project: Rave Run",
+        "image": "img/raverun.jpg",
         "carouselImages": [
-            "project4-img1.jpg",
-            "project4-img2.jpg",
-            "project4-img3.jpg"
+            "img/raverunfilmpje.mp4"
         ],
         "description": "Click here to add details about Project 4."
     },

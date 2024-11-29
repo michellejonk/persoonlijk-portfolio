@@ -203,6 +203,7 @@ img[alt="time"] {
     display: flex;
     position: absolute;
     width: 550px;
+    height: 250px;
     border-radius: 8px;
     z-index: -1;
     object-fit: fill;
@@ -218,6 +219,7 @@ img[alt="time"] {
     border: 3px solid black;
     width: 100px;
     transition: 1s;
+    border-radius: 40px;
 }
 
 #carousel button:hover {
@@ -256,7 +258,11 @@ img[alt="time"] {
     height: 500px;
 }
 
-#footer a {
+footer {
+    margin-top: 200px;
+}
+
+footer a {
     display: flex;
     text-decoration: none;
     color: white;
