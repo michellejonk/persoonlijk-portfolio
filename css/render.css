@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+#text {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#navbar strong {
+    color: black;
+}
+
+#navbar a {
+    color: black;
+}
+
+#im1 {
+    width: 100%;
+}
+
+#img1 {
+    width: 70%;
+    border-radius: 40px;
+}
+
+#im2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#img2,
+#img3 {
+    width: 45%;
+    display: flex;
+    border-radius: 40px;
+    margin-top: -5%;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#back-button {
+    border: solid 3px red;
+    border-radius: 8px;
+    height: 50px;
+    width: 100px;
+    transition: 1s;
+    background-color: transparent;
+}
+
+#back-button:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#nextbutton {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    
+}

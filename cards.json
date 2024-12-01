@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "title": "Project: Bedrijfskantine",
+        "image": "img/first project front.jpg",
+        "carouselImages": [
+            "img/ba.jpg",
+            "img/first project front.jpg",
+            "img/moodbord.jpg"
+        ],
+        "description": "Details about the Bedrijfskantine project, including goals, approach, and outcomes.",
+        "link": "bedrijfsproject.html"
+    },
+    {
+        "id": 2,
+        "title": "Renders Björn Borg",
+        "image": "img/bjornborgfront.jpg",
+        "carouselImages": [
+            "img/project2.1.png",
+            "img/project2.2.jpg",
+            "img/project2.3.png"
+        ],
+        "description": "A project focused on Björn Borg renders, exploring creative and visual design.",
+        "link": "bjornborg.html"
+    },
+    {
+        "id": 3,
+        "title": "Project: Counter Display Guess",
+        "image": "img/project3.1.jpg",
+        "carouselImages": [
+            "img/project3.1.jpg",
+            "img/project3.3.jpg",
+            "img/project3.4.jpg",
+            "img/project3.2.jpg",
+            "img/project3.5.jpg",
+            "img/project3.6.jpg",
+            "img/project3.7.jpg",
+            "img/project3.8.jpg"
+        ],
+        "description": "Details about the Guess counter display project, including design and implementation.",
+        "link": "guess-counter-display.html"
+    },
+    {
+        "id": 4,
+        "title": "Project: Rave Run",
+        "image": "img/raverun.jpg",
+        "carouselImages": [
+            "img/raverunfilmpje.mp4"
+        ],
+        "description": "Explore the dynamic and colorful Rave Run project.",
+        "link": "rave-run.html"
+    },
+    {
+        "id": 5,
+        "title": "Project 5",
+        "image": "project5-front.jpg",
+        "carouselImages": [
+            "project5-img1.jpg",
+            "project5-img2.jpg",
+            "project5-img3.jpg"
+        ],
+        "description": "Details about Project 5.",
+        "link": "project5.html"
+    },
+    {
+        "id": 6,
+        "title": "Project 6",
+        "image": "project6-front.jpg",
+        "carouselImages": [
+            "project6-img1.jpg",
+            "project6-img2.jpg",
+            "project6-img3.jpg"
+        ],
+        "description": "Details about Project 6.",
+        "link": "project6.html"
+    }
+]
