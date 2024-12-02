@@ -10,18 +10,15 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    z-index: 999;
+    background-color: #ffffff;
+    z-index: 1;
     color: white;
-    position: sticky;
-    top: 0px;
-    left: 0px;
     background-color: transparent;
 }
 
 #navbar a {
     text-decoration: none;
-    color: white;
-
+    color:white;
 }
 
 #navbar p {

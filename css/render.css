@@ -10,6 +10,14 @@ body {
     text-align: center;
 }
 
+#navbar strong {
+    color: black;
+}
+
+#navbar a {
+    color: black;
+}
+
 #im1 {
     width: 100%;
 }
