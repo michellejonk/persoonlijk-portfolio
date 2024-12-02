@@ -63,5 +63,10 @@ button a {
     background-color: transparent;
     border: none;
     font-size: 30px;
-    
+    transition: 1s;
+}
+
+#nextbutton:hover {
+    transition: 1s;
+    transform: scale(1.1);
 }
