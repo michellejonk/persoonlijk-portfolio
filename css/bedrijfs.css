@@ -29,12 +29,17 @@ body {
 
 #afbeeldingen {
     display: flex;
-    width: 150%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     z-index: -1;
-    top: 30%;
-    align-content: end;
     flex-direction: column;
+}
+
+#afbeeldingen img {
+    width: 90%;
+
 }
 
 #projectinformation {
