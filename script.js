@@ -27,3 +27,25 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch((error) => console.error("Error loading JSON:", error));
 });
+
+
+// Keep track of the last scroll position
+let lastScrollTop = 0;
+
+// Add an event listener to the window for the 'scroll' event
+window.addEventListener('scroll', function() {
+    // Get the current scroll position
+    let currentScrollTop = window.scrollY || document.documentElement.scrollTop;
+
+    if (currentScrollTop > lastScrollTop) {
+        // User scrolled down
+       const navbar = document.getElementById("navbar")
+        navbar.style.backgroundColor = "rgb(24, 33, 52)";
+    } else if (currentScrollTop < lastScrollTop) {
+        // User scrolled up
+        navbar.style.backgroundColor = "transparent";
+    }
+
+    // Update the last scroll position
+    lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // Ensure it doesn't go negative
+});

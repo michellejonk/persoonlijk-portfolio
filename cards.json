@@ -21,7 +21,7 @@
             "img/project2.3.png"
         ],
         "description": "A project focused on Björn Borg renders, exploring creative and visual design.",
-        "link": "bjornborg.html"
+        "link": "rendersBjörnBorg.html"
     },
     {
         "id": 3,
@@ -38,7 +38,7 @@
             "img/project3.8.jpg"
         ],
         "description": "Details about the Guess counter display project, including design and implementation.",
-        "link": "guess-counter-display.html"
+        "link": "guesproject.html"
     },
     {
         "id": 4,
@@ -52,15 +52,15 @@
     },
     {
         "id": 5,
-        "title": "Project 5",
-        "image": "project5-front.jpg",
+        "title": "Project: Happy Socks",
+        "image": "img/happy socks instagram post pagina.png",
         "carouselImages": [
             "project5-img1.jpg",
             "project5-img2.jpg",
             "project5-img3.jpg"
         ],
         "description": "Details about Project 5.",
-        "link": "project5.html"
+        "link": "happy socks.html"
     },
     {
         "id": 6,

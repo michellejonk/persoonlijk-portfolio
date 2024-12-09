@@ -12,6 +12,8 @@ body {
     flex-direction: row;
     background-color: #ffffff;
     z-index: 1;
+    position: sticky;
+    top: 0;
     color: white;
     background-color: transparent;
 }

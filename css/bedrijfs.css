@@ -4,93 +4,59 @@ body {
 
 #text {
     font-size: 24px;
+    text-align: center;
+}
+
+.textcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.textcolumn h3 {
+    display: flex;
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+.textcolumn p {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    font-size: 28px;
+    margin-left: 5%;
+    width: 40%;
 }
 
 #afbeeldingen {
     display: flex;
+    width: 100%;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    z-index: -1;
     flex-direction: column;
 }
 
-#navbar strong {
-    color: black;
+#afbeeldingen img {
+    width: 90%;
+
 }
 
-#navbar a {
-    color: black;
-}
-
-#im1 {
-    width: 80%;
-    border-radius: 40px;
-}
-
-#img2 {
-    width: 50%;
-    border-radius: 40px;
-}
-
-#im3 {
+#projectinformation {
     display: flex;
-    justify-content: center;
-    width: 50%;
-    border-radius: 40px;
-    z-index: -2;
+    flex-direction: row;
 }
 
-.img3 {
+#information {
     display: flex;
-    justify-content: center;
-    margin-left: 40%;
-    margin-top: -15%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: space-around;
 }
 
-.img4 {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    margin-top: -40px;
-}
-
-#im4 {
-    display: flex;
-    justify-content: start;
-    width: 30%;
-    border-radius: 40px;
-    margin-top: -9%;
-    margin-left: 2%;
-    z-index: -1;
-}
-.img5 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: -30%;
-}
-
-#im5 {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    margin-right: 10%;
-    border-radius: 40px;
-    z-index: -1;
-}
-
-.small {
-    display: flex;
-    justify-content: start;
-    margin-top: -80px;
-    margin-left: 5%;
-}
-
-.large {
-    display: flex;
-    justify-content: center;
+img {
+    width: 200%;
 }
 
 button a {
@@ -122,5 +88,10 @@ button a {
     background-color: transparent;
     border: none;
     font-size: 30px;
-    
+    transition: 1s;
+}
+
+#nextbutton:hover {
+    transition: 1s;
+    transform: scale(1.1);
 }
