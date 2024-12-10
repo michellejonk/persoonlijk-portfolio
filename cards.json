@@ -48,7 +48,7 @@
             "img/raverunfilmpje.mp4"
         ],
         "description": "Explore the dynamic and colorful Rave Run project.",
-        "link": "rave-run.html"
+        "link": "raverun.html"
     },
     {
         "id": 5,
@@ -64,6 +64,18 @@
     },
     {
         "id": 6,
+        "title": "Project: Lamp Design",
+        "image": "project6-front.jpg",
+        "carouselImages": [
+            "project6-img1.jpg",
+            "project6-img2.jpg",
+            "project6-img3.jpg"
+        ],
+        "description": "Details about Project 6.",
+        "link": "project6.html"
+    },
+    {
+        "id": 7,
         "title": "Project 6",
         "image": "project6-front.jpg",
         "carouselImages": [
