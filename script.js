@@ -49,3 +49,9 @@ window.addEventListener('scroll', function() {
     // Update the last scroll position
     lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // Ensure it doesn't go negative
 });
+
+// Toggle the visibility of nav-links
+document.getElementById("menu-toggle").addEventListener("click", function () {
+    const navLinks = document.getElementById("nav-links");
+    navLinks.classList.toggle("show");
+});
