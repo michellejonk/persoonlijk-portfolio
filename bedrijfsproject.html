@@ -9,24 +9,32 @@
 </head>
 <body>
     <nav id="navbar">
-        <ul>
-            <li><strong>MICHELLE JONK</strong></li>
-        </ul>
-        <ul>
-            <li>
-                <p><a href="index.html">HOME</a></p>
-            </li>
-            <li>
-                <p><a href="index.html#projecten">OVER MIJ</a></p>
-            </li>
-            <li>
-                <p><a href="">PROJECTEN</a></p>
-            </li>
-            <li>
-                <p><a href="#contact">CONTACT</a>
-                <p>
-            </li>
-        </ul>
+        <div class="nav-header">
+            <strong>MICHELLE JONK</strong>
+        </div>
+        <div id="hamburgermenu">
+            <div id="navigatie">
+                <button id="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li>
+                    <p><a href="index.html">HOME</a></p>
+                </li>
+                <li>
+                    <p><a href="#aboutme">OVER MIJ</a></p>
+                </li>
+                <li>
+                    <p>PROJECTEN</p>
+                </li>
+                <li>
+                    <p><a href="#contact">CONTACT</a></p>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section id="afbeeldingen">
         <img src="img/bedrijfskantine pagina met tekst.png" alt="">
@@ -55,5 +63,6 @@
         </div>
     </div>
 </footer>
+<script src="mobile.js"></script>
 </body>
 </html>
