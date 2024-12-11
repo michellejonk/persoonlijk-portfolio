@@ -335,10 +335,19 @@ footer a {
         margin-left: 0; /* Align text properly within card */
         text-align: center; /* Center align text for better readability */
         height: auto; /* Adjust height dynamically */
+        justify-content: center;
     }
 
     #projecten h1 {
         font-size: 1.5rem; /* Adjust heading size */
         padding: 10px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .topimg {
+        justify-content: center;
+        width: 50%; /* Use percentage to fit screen */
+        max-width: 300px; /* Prevent oversized images */
     }
 }
