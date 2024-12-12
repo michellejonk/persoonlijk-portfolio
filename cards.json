@@ -48,7 +48,7 @@
             "img/raverunfilmpje.mp4"
         ],
         "description": "Explore the dynamic and colorful Rave Run project.",
-        "link": "rave-run.html"
+        "link": "raverun.html"
     },
     {
         "id": 5,
@@ -72,11 +72,11 @@
             "project6-img3.jpg"
         ],
         "description": "Details about Project 6.",
-        "link": "project6.html"
+        "link": "lampproject.html"
     },
     {
         "id": 7,
-        "title": "Project 6",
+        "title": "Project: Hotelkamer",
         "image": "img/hotelkamer front.jpg",
         "carouselImages": [
             "project6-img1.jpg",
