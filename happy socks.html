@@ -9,41 +9,49 @@
 </head>
 <body>
     <nav id="navbar">
-        <ul>
-            <li><strong>MICHELLE JONK</strong></li>
-        </ul>
-        <ul>
-            <li>
-                <p><a href="index.html">HOME</a></p>
-            </li>
-            <li>
-                <p><a href="index.html#projecten">OVER MIJ</a></p>
-            </li>
-            <li>
-                <p><a href="">PROJECTEN</a></p>
-            </li>
-            <li>
-                <p><a href="#contact">CONTACT</a>
-                <p>
-            </li>
-        </ul>
+        <div class="nav-header">
+            <strong>MICHELLE JONK</strong>
+        </div>
+        <div id="hamburgermenu">
+            <div id="navigatie">
+                <button id="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li>
+                    <p><a href="index.html">HOME</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#aboutme">OVER MIJ</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#projecten">PROJECTEN</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#contact">CONTACT</a></p>
+                </li>
+            </ul>
+        </div>
     </nav>
     <section id="afbeeldingen">
-        <img src="img/happy socks instagram post pagina.png" alt="">
+        <img loading="lazy" src="img/happy socks instagram post pagina.png" alt="">
     </section>
     <section id="buttons">
         <button id="nextbutton"><a href="raverun.html">  < Rave Run</a></button>
         <button id="back-button"><a href="index.html">Home</a></button>
-        <button id="nextbutton"><a href="guesproject.html">pop-up shop Björn Borg ></a></button>
+        <button id="nextbutton"><a href="lampproject.html">lamp Project ></a></button>
     </section>
     <footer id="contact">
         <div id="cardcontainer">
             <div>
                 <h5>pagina's</h5>
                 <div>
-                    <p><a href="#top">Home</a></p>
-                    <p><a href="#aboutme">Over Mij</a></p>
-                    <p><a href="#projecten">Projecten</a></p>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="index.html#aboutme">Over Mij</a></p>
+                    <p><a href="index.html#projecten">Projecten</a></p>
                 </div>
             </div>
             <div>
@@ -53,8 +61,10 @@
                     <a href="tel: +31 20451380">06 20451380</a>
                     <a href="https://www.linkedin.com/in/michelle-jonk-6b876526b/">@Michelle Jonk</a>
                 </div>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+<script src="mobile.js"></script>
+
 </body>
 </html>

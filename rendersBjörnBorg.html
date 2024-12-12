@@ -9,28 +9,36 @@
 </head>
 <body>
     <nav id="navbar">
-        <ul>
-            <li><strong>MICHELLE JONK</strong></li>
-        </ul>
-        <ul>
-            <li>
-                <p><a href="index.html">HOME</a></p>
-            </li>
-            <li>
-                <p><a href="index.html#projecten">OVER MIJ</a></p>
-            </li>
-            <li>
-                <p>PROJECTEN</p>
-            </li>
-            <li>
-                <p><a href="#contact">CONTACT</a>
-                <p>
-            </li>
-        </ul>
+        <div class="nav-header">
+            <strong>MICHELLE JONK</strong>
+        </div>
+        <div id="hamburgermenu">
+            <div id="navigatie">
+                <button id="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li>
+                    <p><a href="index.html">HOME</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#aboutme">OVER MIJ</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#projecten">PROJECTEN</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#contact">CONTACT</a></p>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div id="text">
         <section id="afbeeldingen">
-            <img src="img/bjorn borg pop-up shop pagina met tekst.png" alt="">
+            <img loading="lazy" src="img/bjorn borg pop-up shop pagina met tekst.png" alt="">
         </section>
 </div>
 <section id="buttons">
@@ -43,20 +51,21 @@
         <div>
             <h5>pagina's</h5>
             <div>
-                <p><a href="#top">Home</a></p>
-                <p><a href="#aboutme">Over Mij</a></p>
-            <p><a href="#projecten">Projecten</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="index.html#aboutme">Over Mij</a></p>
+                <p><a href="index.html#projecten">Projecten</a></p>
+            </div>
         </div>
-    </div>
-    <div>
-        <h5>Contact</h5>
         <div>
-            <a href="mailto: Michellejonk17@gmail.com">Michellejonk17@gmail.com</a>
-            <a href="tel: +31 20451380">06 20451380</a>
-            <a href="https://www.linkedin.com/in/michelle-jonk-6b876526b/">@Michelle Jonk</a>
+            <h5>Contact</h5>
+            <div>
+                <a href="mailto: Michellejonk17@gmail.com">Michellejonk17@gmail.com</a>
+                <a href="tel: +31 20451380">06 20451380</a>
+                <a href="https://www.linkedin.com/in/michelle-jonk-6b876526b/">@Michelle Jonk</a>
+            </div>
         </div>
     </div>
-</div>
 </footer>
+<script src="mobile.js"></script>
 </body>
 </html>

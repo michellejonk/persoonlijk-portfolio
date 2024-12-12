@@ -9,27 +9,35 @@
 </head>
 <body>
     <nav id="navbar">
-        <ul>
-            <li><strong>MICHELLE JONK</strong></li>
-        </ul>
-        <ul>
-            <li>
-                <p><a href="index.html">HOME</a></p>
-            </li>
-            <li>
-                <p><a href="index.html#projecten">OVER MIJ</a></p>
-            </li>
-            <li>
-                <p>PROJECTEN</p>
-            </li>
-            <li>
-                <p><a href="#contact">CONTACT</a>
-                <p>
-            </li>
-        </ul>
+        <div class="nav-header">
+            <strong>MICHELLE JONK</strong>
+        </div>
+        <div id="hamburgermenu">
+            <div id="navigatie">
+                <button id="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul id="nav-links" class="nav-links">
+                <li>
+                    <p><a href="index.html">HOME</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#aboutme">OVER MIJ</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#projecten">PROJECTEN</a></p>
+                </li>
+                <li>
+                    <p><a href="index.html#contact">CONTACT</a></p>
+                </li>
+            </ul>
+        </div>
     </nav>
         <section id="afbeeldingen">
-    <img src="img/guess display pagina met tekst2.png" alt="">
+    <img loading="lazy" src="img/guess display pagina met tekst2.png" alt="">
 </section>
 <section id="buttons">
     <button id="nextbutton"><a href="rendersBjörnBorg.html">  < pop-up shop Björn Borg</a></button>
@@ -41,9 +49,9 @@
         <div>
             <h5>pagina's</h5>
             <div>
-                <p><a href="#top">Home</a></p>
-                <p><a href="#aboutme">Over Mij</a></p>
-                <p><a href="#projecten">Projecten</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="index.html#aboutme">Over Mij</a></p>
+                <p><a href="index.html#projecten">Projecten</a></p>
             </div>
         </div>
         <div>
@@ -56,5 +64,6 @@
         </div>
     </div>
 </footer>
+<script src="mobile.js"></script>
 </body>
 </html>

@@ -26,7 +26,7 @@
     {
         "id": 3,
         "title": "Project: Counter Display Guess",
-        "image": "img/project3.1.jpg",
+        "image": "img/project3.9.jpg",
         "carouselImages": [
             "img/project3.1.jpg",
             "img/project3.3.jpg",
@@ -43,7 +43,7 @@
     {
         "id": 4,
         "title": "Project: Rave Run",
-        "image": "img/raverun.jpg",
+        "image": "img/raverun front.jpg",
         "carouselImages": [
             "img/raverunfilmpje.mp4"
         ],
@@ -53,7 +53,7 @@
     {
         "id": 5,
         "title": "Project: Happy Socks",
-        "image": "img/happy socks instagram post pagina.png",
+        "image": "img/front socken.jpg",
         "carouselImages": [
             "project5-img1.jpg",
             "project5-img2.jpg",
@@ -64,8 +64,8 @@
     },
     {
         "id": 6,
-        "title": "Project 6",
-        "image": "project6-front.jpg",
+        "title": "Project: Lamp Design",
+        "image": "img/lamp front.jpg",
         "carouselImages": [
             "project6-img1.jpg",
             "project6-img2.jpg",
@@ -73,5 +73,17 @@
         ],
         "description": "Details about Project 6.",
         "link": "project6.html"
+    },
+    {
+        "id": 7,
+        "title": "Project 6",
+        "image": "img/hotelkamer front.jpg",
+        "carouselImages": [
+            "project6-img1.jpg",
+            "project6-img2.jpg",
+            "project6-img3.jpg"
+        ],
+        "description": "Details about Project 6.",
+        "link": "hotelkamerproject.html"
     }
 ]
