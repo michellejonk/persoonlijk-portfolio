@@ -44,7 +44,10 @@ body {
 
 #afbeeldingen img {
     width: 70%;
+}
 
+#afbeeldingen video {
+    width: 50%;
 }
 
 #projectinformation {
