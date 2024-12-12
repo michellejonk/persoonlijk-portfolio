@@ -13,8 +13,8 @@
     },
     {
         "id": 2,
-        "title": "pop-up shop Björn Borg",
-        "image": "img/front renders.jpg",
+        "title": "Renders Björn Borg",
+        "image": "img/bjornborgfront.jpg",
         "carouselImages": [
             "img/project2.1.png",
             "img/project2.2.jpg",
@@ -48,7 +48,7 @@
             "img/raverunfilmpje.mp4"
         ],
         "description": "Explore the dynamic and colorful Rave Run project.",
-        "link": "raverun.html"
+        "link": "rave-run.html"
     },
     {
         "id": 5,
