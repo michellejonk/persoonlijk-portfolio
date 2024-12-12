@@ -79,10 +79,6 @@ body {
     align-items: center;
 }
 
-
-
-
-
 .hamburger {
     display: none; /* Hidden by default */
     background: none;
@@ -225,8 +221,15 @@ footer {
 
 footer a {
     display: flex;
+    justify-content: center;
     text-decoration: none;
     color: white;
+    transition: 1s;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 @media (max-width: 1000px) {
