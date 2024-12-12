@@ -13,8 +13,8 @@
     },
     {
         "id": 2,
-        "title": "pop-up shop Björn Borg",
-        "image": "img/front renders.jpg",
+        "title": "Renders Björn Borg",
+        "image": "img/bjornborgfront.jpg",
         "carouselImages": [
             "img/project2.1.png",
             "img/project2.2.jpg",
@@ -26,7 +26,7 @@
     {
         "id": 3,
         "title": "Project: Counter Display Guess",
-        "image": "img/project3.9.jpg",
+        "image": "img/project3.1.jpg",
         "carouselImages": [
             "img/project3.1.jpg",
             "img/project3.3.jpg",
@@ -48,7 +48,7 @@
             "img/raverunfilmpje.mp4"
         ],
         "description": "Explore the dynamic and colorful Rave Run project.",
-        "link": "raverun.html"
+        "link": "rave-run.html"
     },
     {
         "id": 5,
@@ -64,18 +64,6 @@
     },
     {
         "id": 6,
-        "title": "Project: Lamp Design",
-        "image": "project6-front.jpg",
-        "carouselImages": [
-            "project6-img1.jpg",
-            "project6-img2.jpg",
-            "project6-img3.jpg"
-        ],
-        "description": "Details about Project 6.",
-        "link": "project6.html"
-    },
-    {
-        "id": 7,
         "title": "Project 6",
         "image": "project6-front.jpg",
         "carouselImages": [
