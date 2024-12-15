@@ -368,7 +368,7 @@ footer a:hover {
 
     #h1container {
         height: 100%;
-        margin-left: 3%;
+        justify-content: center;
         flex-wrap: wrap;
         width: 100%;
     }
