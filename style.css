@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-right: 3%;
+    margin-right: 10%;
 }
 
 #navbar li {
@@ -176,6 +176,13 @@ img[alt="time"] {
     transition: 1s;
 }
 
+#h1container {
+    display: flex;
+    align-items: end;
+    height: 250px;
+    width: 500px;
+}
+
 #projecten h1 {
     display: flex;
     justify-content: center;
@@ -196,7 +203,6 @@ img[alt="time"] {
     color: rgb(255, 255, 255);
     align-items: end;
     justify-content: flex-start;
-    height: 210px;
     margin-left: 20px;
 }
 
@@ -352,6 +358,10 @@ footer a:hover {
     #projecten h1 {
         font-size: 1.5rem; /* Adjust heading size */
         padding: 10px 0;
+    }
+
+    #h1container {
+        height: 100%;
     }
 }
 

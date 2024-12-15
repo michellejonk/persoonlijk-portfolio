@@ -9,10 +9,24 @@ document.addEventListener("DOMContentLoaded", () => {
             cards.forEach((card) => {
                 const cardElement = document.createElement("div");
                 cardElement.classList.add("card");
-                cardElement.innerHTML = `
-                    <img src="${card.image}" alt="${card.title}">
-                    <h1>${card.title}</h1>
+
+                // Create an img element with default image
+                const imgElement = document.createElement("img");
+                imgElement.src = card.image;
+                imgElement.alt = card.title;
+
+                // Add the rest of the card content
+                const h1Container = document.createElement("div");
+                h1Container.id = "h1container";
+                h1Container.innerHTML = `
+                    <div>
+                        <h1>${card.title}</h1>
+                    </div>
                 `;
+
+                cardElement.appendChild(imgElement);
+                cardElement.appendChild(h1Container);
+
                 projectenSection.appendChild(cardElement);
 
                 // Add click event to redirect to the specified page
@@ -23,41 +37,42 @@ document.addEventListener("DOMContentLoaded", () => {
                         console.error("No link provided for this card.");
                     }
                 });
+
+                // Image switching based on screen size
+                const updateImage = () => {
+                    imgElement.src = window.innerWidth <= 1000 ? card.mobileImage : card.image;
+                };
+
+                // Initial update and resize listener
+                updateImage();
+                window.addEventListener("resize", updateImage);
             });
         })
         .catch((error) => console.error("Error loading JSON:", error));
 });
 
-
-// Keep track of the last scroll position
+// Navbar scroll behavior
 let lastScrollTop = 0;
 
-// Add an event listener to the window for the 'scroll' event
-window.addEventListener('scroll', function () {
-    // Get the current scroll position
+window.addEventListener("scroll", function () {
     let currentScrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    // Check if screen width is greater than 768px
     if (window.innerWidth > 768) {
         const navbar = document.getElementById("navbar");
 
         if (currentScrollTop > lastScrollTop) {
-            // User scrolled down
             navbar.style.backgroundColor = "rgb(24, 33, 52)";
         } else if (currentScrollTop < lastScrollTop) {
-            // User scrolled up
             navbar.style.backgroundColor = "transparent";
         }
 
-        // Update the last scroll position
-        lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // Ensure it doesn't go negative
+        lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
     } else {
-        // For screens <= 768px, always set the background color
         document.getElementById("navbar").style.backgroundColor = "rgb(24, 33, 52)";
     }
 });
 
-// Toggle the visibility of nav-links
+// Toggle nav-links visibility
 document.getElementById("menu-toggle").addEventListener("click", function () {
     const navLinks = document.getElementById("nav-links");
     navLinks.classList.toggle("show");
