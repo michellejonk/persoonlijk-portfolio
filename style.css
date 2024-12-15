@@ -353,6 +353,12 @@ footer a:hover {
         text-align: center; /* Center align text for better readability */
         height: auto; /* Adjust height dynamically */
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #h1container div {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #projecten h1 {
@@ -362,6 +368,9 @@ footer a:hover {
 
     #h1container {
         height: 100%;
+        margin-left: 3%;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
