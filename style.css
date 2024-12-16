@@ -218,17 +218,31 @@ img[alt="time"] {
 #cardcontainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 800px;
+    gap: 20px;
+}
+
+#cardcontainer div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 footer {
     margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer a {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    flex-wrap: wrap;
     color: white;
     transition: 1s;
 }
