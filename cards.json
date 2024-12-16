@@ -4,12 +4,6 @@
         "title": "Bedrijfskantine",
         "image": "img/ba.jpg",
         "mobileImage": "img/ba-mobile.jpg",
-        "carouselImages": [
-            "img/ba.jpg",
-            "img/first project front.jpg",
-            "img/moodbord.jpg"
-        ],
-        "description": "Details about the Bedrijfskantine project, including goals, approach, and outcomes.",
         "link": "bedrijfsproject.html"
     },
     {
@@ -17,12 +11,6 @@
         "title": "pop-up shop Björn Borg",
         "image": "img/front renders.jpg",
         "mobileImage": "img/front renders-mobile.jpg",
-        "carouselImages": [
-            "img/project2.1.png",
-            "img/project2.2.jpg",
-            "img/project2.3.png"
-        ],
-        "description": "A project focused on Björn Borg renders, exploring creative and visual design.",
         "link": "rendersBjörnBorg.html"
     },
     {
@@ -30,17 +18,6 @@
         "title": "Counter Display Guess",
         "image": "img/project3.9.jpg",
         "mobileImage": "img/project3.9-mobile.jpg",
-        "carouselImages": [
-            "img/project3.1.jpg",
-            "img/project3.3.jpg",
-            "img/project3.4.jpg",
-            "img/project3.2.jpg",
-            "img/project3.5.jpg",
-            "img/project3.6.jpg",
-            "img/project3.7.jpg",
-            "img/project3.8.jpg"
-        ],
-        "description": "Details about the Guess counter display project, including design and implementation.",
         "link": "guesproject.html"
     },
     {
@@ -48,10 +25,6 @@
         "title": "Rave Run",
         "image": "img/raverun front.jpg",
         "mobileImage": "img/raverun front-mobile.jpg",
-        "carouselImages": [
-            "img/raverunfilmpje.mp4"
-        ],
-        "description": "Explore the dynamic and colorful Rave Run project.",
         "link": "raverun.html"
     },
     {
@@ -59,12 +32,6 @@
         "title": "Happy Socks",
         "image": "img/front socken.jpg",
         "mobileImage": "img/front socken-mobile.jpg",
-        "carouselImages": [
-            "project5-img1.jpg",
-            "project5-img2.jpg",
-            "project5-img3.jpg"
-        ],
-        "description": "Details about Project 5.",
         "link": "happy socks.html"
     },
     {
@@ -72,12 +39,6 @@
         "title": "Lamp Design",
         "image": "img/lamp front.jpg",
         "mobileImage": "img/lamp front-mobile.jpg",
-        "carouselImages": [
-            "project6-img1.jpg",
-            "project6-img2.jpg",
-            "project6-img3.jpg"
-        ],
-        "description": "Details about Project 6.",
         "link": "lampproject.html"
     },
     {
@@ -85,12 +46,6 @@
         "title": "Hotelkamer",
         "image": "img/hotelkamer front.jpg",
         "mobileImage": "img/hotelkamer front-mobile.jpg",
-        "carouselImages": [
-            "project6-img1.jpg",
-            "project6-img2.jpg",
-            "project6-img3.jpg"
-        ],
-        "description": "Details about Project 6.",
         "link": "hotelkamerproject.html"
     }
 ]

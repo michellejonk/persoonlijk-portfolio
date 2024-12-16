@@ -221,7 +221,7 @@ img[alt="time"] {
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 800px;
-    gap: 20px;
+    gap: 70px;
 }
 
 #cardcontainer div {
@@ -245,6 +245,7 @@ footer a {
     flex-wrap: wrap;
     color: white;
     transition: 1s;
+    font-size: 14px;
 }
 
 footer a:hover {
