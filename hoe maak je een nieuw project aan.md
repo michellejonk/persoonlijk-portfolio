@@ -1,6 +1,6 @@
 <h1>Stap 1</h1>
 <p>Ga naar cards.json en copy en paste het volgende</p>
-<code>
+<p>
 ,
     {
         "id": vul id in,
@@ -9,7 +9,7 @@
         "mobileImage": "img/afbeelding zonder zwarte balk",
         "link": "pagina-naam.html"
     }
-</code>
+</p>
 
 <h1>Stap 2</h1>
 <p>Maak een nieuwe .html.
@@ -17,7 +17,7 @@ dat doe je door op persoonlijk-portfolio met rechter muis knop te klikken en dan
 
 <h1>Stap 3</h1>
 <p>Copy en paste de volgende code in de nieuwe .html:</p>
-<code>
+<p>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -97,24 +97,24 @@ dat doe je door op persoonlijk-portfolio met rechter muis knop te klikken en dan
     <script src="mobile.js"></script>
 </body>
 </html>
-</code>
+</p>
 
 <h1> Stap 4</h1>
 <p>Ga naar je laatste project dat je hebt gemaakt en herplaats dit:</p>
-<code>
+<p>
     <section id="buttons">
         <button id="nextbutton"><a href="je laatste project.html">  < Lamp Project</a></button>
         <button id="back-button"><a href="index.html">Home</a></button>
     </section>
-</code>
+</p>
 
 <h3>Met dit:</h3>
-<code>
+<p>
     <section id="buttons">
         <button id="nextbutton"><a href="vorige project.html">  < Rave run</a></button>
         <button id="back-button"><a href="index.html">Home</a></button>
         <button id="nextbutton"><a href="nieuwe project.html">Lamp Project ></a></button>
 </section>
-</code>
+</p>
 
 <h1>En nu heb je een nieuw project</h1>
