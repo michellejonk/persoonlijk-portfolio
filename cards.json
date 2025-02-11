@@ -47,12 +47,5 @@
         "image": "img/hotelkamer front.jpg",
         "mobileImage": "img/hotelkamer front-mobile.jpg",
         "link": "hotelkamerproject.html"
-    },
-    {
-        "id": 8,
-        "title": "nieuwe project",
-        "image": "img/project3.9",
-        "mobileImage": "img/project3.9-mobile",
-        "link": "hotelkamerproject.html"
     }
 ]
