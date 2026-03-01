@@ -1,3 +1,24 @@
+<h1>Stap 1</h1>
+<p>Ga naar cards.json en copy en paste het volgende</p>
+<p>
+,
+    {
+        "id": vul id in,
+        "title": "project-naam",
+        "image": "img/afbeelding met zwart balk",
+        "mobileImage": "img/afbeelding zonder zwarte balk",
+        "link": "pagina-naam.html"
+    }
+</p>
+
+<h1>Stap 2</h1>
+<p>Maak een nieuwe .html.
+dat doe je door op persoonlijk-portfolio met rechter muis knop te klikken en dan new file te selecteren. ZORG DAT DE NAAM VAN FILE EINDIGD MET .html</p>
+
+<h1>Stap 3</h1>
+<p>Copy en paste de volgende code in de nieuwe .html:</p>
+<p>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,12 +58,13 @@
         </div>
     </nav>
     <section id="afbeeldingen">
-        <img loading="lazy" src="img/hotel kamer pagina met tekst.png" alt="">
+        <img loading="lazy" src="img/afbeelding me tekst.png" alt="">
     </section>
     <section id="buttons">
-        <button id="nextbutton"><a href="lampproject.html">  < Lamp Project</a></button>
+        <button id="nextbutton"><a href="laatste project dat je hebt toegevoegd.html">  < 
+        laatste project dat je hebt toegevoegd</a></button>
         <button id="back-button"><a href="index.html">Home</a></button>
-</section>
+    </section>
     <footer id="contact">
         <div id="cardcontainer">
             <div>
@@ -72,6 +94,27 @@
             </div>
         </div>
     </footer>
-<script src="mobile.js"></script>
+    <script src="mobile.js"></script>
 </body>
 </html>
+</p>
+
+<h1> Stap 4</h1>
+<p>Ga naar je laatste project dat je hebt gemaakt en herplaats dit:</p>
+<p>
+    <section id="buttons">
+        <button id="nextbutton"><a href="je laatste project.html">  < Lamp Project</a></button>
+        <button id="back-button"><a href="index.html">Home</a></button>
+    </section>
+</p>
+
+<h3>Met dit:</h3>
+<p>
+    <section id="buttons">
+        <button id="nextbutton"><a href="vorige project.html">  < Rave run</a></button>
+        <button id="back-button"><a href="index.html">Home</a></button>
+        <button id="nextbutton"><a href="nieuwe project.html">Lamp Project ></a></button>
+</section>
+</p>
+
+<h1>En nu heb je een nieuw project</h1>
